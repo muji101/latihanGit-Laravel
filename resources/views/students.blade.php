@@ -11,7 +11,8 @@
         <title>SMA 45 Pancasila</title>
     </head>
     <body>
-        <center><h1 class="fw-bold m-4">Daftar Nama Guru SMA 45 Pancasila</h1></center>
+        @include('layouts.nav')
+        <center><h1 class="fw-bold m-4">Daftar Nama Siswa SMA 45 Pancasila</h1></center>
         <div class="container">
             <div class="d-flex flex-wrap">
                 @foreach ( $student as $data )
